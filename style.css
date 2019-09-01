@@ -28,7 +28,9 @@ textarea {overflow:auto;}
 		 url('fonts/open_sans_condensed-webfont.svg#Open Sans Condensed') format('svg');
 		 
 }
-
+html {
+    scroll-behavior: smooth;
+   }
 .genel{
     width: 100%;
     height: 9000px;
@@ -96,6 +98,7 @@ textarea {overflow:auto;}
     float: left;
     text-align: center;
     padding: 90px 0 0 0;
+    
 }
 .ustorta a{
     text-align: center;
@@ -107,6 +110,44 @@ textarea {overflow:auto;}
     font-size: 25px;
     border: 1px solid black;
     width: 350px;
-    margin: 0px 0 0 750px;
     
+    margin: 0px 20px 0 750px;
+    opacity: 0.5;
+    transition: width 2s;
 }
+.ustorta a:hover{
+    opacity: 1;
+    border-radius: 20px;
+    width: 550px;
+}
+
+.orta1{
+    width: 100%;
+    height: 880px;
+    padding: 100px 0 0 0;
+    text-align: center;
+    background: url(images/3.jpg);
+    background-size: 100% 1080px;
+}
+
+.orta1 p{
+    font-size: 24px;
+}
+.orta1 p a{
+    color: #000;
+}
+
+.orta2{
+    width: 100%;
+    height: 880px;
+    padding: 100px 0 0 0;
+    margin: 0px 0 0 0;
+    text-align: center;
+    background: url(images/4.jpg);
+    background-size: 100% 1080px;
+}
+.orta2 p{
+    font-size: 22px;
+    font-style: italic;
+}
+
