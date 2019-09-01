@@ -1,0 +1,112 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} 
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+@font-face {
+	font-family:'Open Sans Condensed';
+	src: url(fonts/open_sans_condensed-webfont.eot);
+	src: local('Open Sans Condensed'),  
+		 url('fonts/open_sans_condensed-webfont.woff') format('woff'),  
+		 url('fonts/open_sans_condensed-webfont.ttf') format('truetype'),
+		 url('fonts/open_sans_condensed-webfont.svg#Open Sans Condensed') format('svg');
+		 
+}
+
+.genel{
+    width: 100%;
+    height: 9000px;
+    background: white;
+}
+.ust{
+    width: 100%;
+    height: 1080px;
+    background: url(images/2.jpg);
+    background-size: 100% 1080px;
+}
+.menu{
+    width: 100%;
+    height: 360px;
+}
+.menu ul li{
+    float: left;
+    margin: 15px 0 0 0;
+}
+.menu ul li a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    height: 30px;
+    padding: 20px 0px 0 0;
+    margin: 0 40px 0 140px;
+    border-radius: 20px;
+    text-align:center;
+    font-style: italic;
+}
+.menu ul li a:hover{
+    color: #000;
+}
+.menu ul li a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.menu ul li a:hover:before{
+    visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.menusag{
+    height: 260px;
+    width: 450px;
+    float: right;
+    font-size: 18px;
+    padding: 0 0 0 25px;
+}
+.ustorta{
+    width: 100%;
+    height: 80px;
+    float: left;
+    text-align: center;
+    padding: 90px 0 0 0;
+}
+.ustorta a{
+    text-align: center;
+    position: relative;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    opacity: 1.1;
+    font-size: 25px;
+    border: 1px solid black;
+    width: 350px;
+    margin: 0px 0 0 750px;
+    
+}
